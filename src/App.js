@@ -36,7 +36,7 @@ function App() {
           message: value
         }),
       };
-      const baseUrl = "https://react-gemini-app.vercel.app";
+      const baseUrl = "https://gen-chat-bot.vercel.app/";
       const endpoint = "/gemini";
       const response = await fetch(baseUrl + endpoint, options);
       const data = await response.text();
